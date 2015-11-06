@@ -1,0 +1,30 @@
+{
+  "name": "hexcel",
+  "version": "0.0.32",
+  "description": "Tool for exporting files as hex-string excel files",
+  "main": "hexcel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiche/Hexcel.git"
+  },
+  "keywords": [
+    "excel",
+    "hex"
+  ],
+  "author": "Benjamin Collins <seichestream@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seiche/Hexcel/issues"
+  },
+
+  "dependencies" : {
+    "exceljs" : "*"
+  },
+  "bin" : {
+    "hexcel" : "./hexcel.js"
+  },
+  "homepage": "https://github.com/seiche/Hexcel#readme"
+}
